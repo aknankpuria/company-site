@@ -49,13 +49,13 @@ const Header = () => {
       <div class="menu">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="/about-us">About Us</a>
           </li>
           <li>
-            <a href="#" class="Services">
+            <a href="" class="Services">
               Services
             </a>
             <ul>
@@ -107,7 +107,7 @@ const Header = () => {
                 <a href="#">Credit Card</a>
               </li>
               <li>
-                <a href="#">Study Abroad</a>
+                <a href="/">Study Abroad</a>
               </li>
             </ul>
           </li>

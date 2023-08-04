@@ -1,5 +1,5 @@
 import Affilated from "./components/Affilated";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Home from "./components/Home";
 import Testimonial from "./components/Testimonial";
 import Footer  from "./components/Footer";
