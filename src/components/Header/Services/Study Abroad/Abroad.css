@@ -1,0 +1,110 @@
+.wrapper{
+    background-color:#e9f5fe;
+}
+.contact h2{
+    margin-bottom: 3rem;
+    /* transition-property:transform ;
+    transition-duration:0.3s ;
+    transition-timing-function: ease;
+    transition-delay:0s ; */
+}
+/* .contact h2:hover{
+    transform: translateY(-10px);
+} */
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.contact-form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea {
+    width:60%;
+   
+    padding:.5rem;
+    font-size:1 rem;
+    color:var(--text-color);
+    background-color: var(--secong-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact form  .input-box  input{
+    width:30%;
+
+}
+.contactform textarea{
+    resize: none;
+}
+.contact form .btn{
+    margin-top:2rem;
+    cursor:pointer;
+    background:blue;
+    padding:10px 25px;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    margin: 10px 0px;
+
+}
+
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .slide-right, .slide-left {
+    width: 100%;
+  }
+  
+  /***** Slide Right *****/
+  .slide-right {
+    animation: 3s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  
+  /***** Slide Left *****/
+  .slide-left {
+    animation: 3s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  .fade-in {
+    animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
