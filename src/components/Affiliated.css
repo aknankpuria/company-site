@@ -1,0 +1,17 @@
+.container h1
+{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.slide-left {
+    animation: 3s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
