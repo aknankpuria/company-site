@@ -1,8 +1,9 @@
 import React from "react";
 import "./Header.css";
+
 const Header = () => {
   return (
-    <section className="h-wrapper">
+  <section className="h-wrapper">
       <div className="flexCenter  h-container">
         <img src="./log.png" width={100}></img>
         <div className="flexCenter  h-contact ">
